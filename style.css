@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color : #a0a0a0;
+    line-height: 1.6;   
+}
+
+.container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    padding: 40px;
+    margin: auto;
+}
+
+.sidebar{
+    height: 90vh;
+    background-color: #2a2a2a;
+    border-radius: 16px;
+    padding: 20px;}  
+
+.main-content{
+    height: 150vh;
+    background-color: #2a2a2a;
+    border-radius: 16px;
+}
+
+.main-content h2{
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.profile{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.profile img{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    border: 6px solid #3a3a3a;
+}
+ 
+.profile h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+.contact{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+}
+
+.label{
+    font-weight: 900;
+    color: #585858;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+
+.value{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.email,.phone{
+    margin-bottom: 14px;;
+}
+
+.social{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px  ;
+
+}
+
+.social img{
+    height: 24px;
+    width: 24px;
+    filter: grayscale(1) invert(0.7);
+    margin-right: 14px;
+    transition: filter 0.3s ease;
+}
+.social img:hover{
+    filter: grayscale(0) invert(0);
+}
+.main-content{
+    padding: 30px;
+    font-size: 1.3rem;
+}
+.main-content h2{
+    font-size: 3rem
+}
+
+.abitaboutme{
+    font-size: 1.4rem;
+    color: #585858;
+}
+
+.p1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p2{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.im{
+    height: 200px;
+    width: 272px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.images{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quicklinks{
+    border-top: 2px solid #3a3a3a;
+    text-align: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.linkvalues{
+    padding: 20px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    filter: grayscale(1) invert(0.7);
+}
+
+.head{
+    background-color: #2a2a2a;
+    padding: 20px;  
+}
+
+.head h1{
+    font-size: 2.9rem;
+}
+
+.headlinks{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.headlink{
+    background-color: #2a2a2a;
+    color: #585858;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 20px;
+    transition: color 0.3s ease;
+    gap: 40px;
+}
+
+.headlink:hover{
+    color: #151515;
+}
+
+.foot{
+    text-align: right;
+    color: #585858;
+
+}
+.sidebar{
+    position: sticky;
+    top: 40px;       
+}
+
+.research-page .container .main-content{
+    height: auto;
+}
+
+.research-page .main-content ul{
+    margin-left: 28px;
+    line-height: 2;
+}
+
+.research-page .main-content h3{
+    color : #1b1919;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+
+    }
+
+.research-page .main-content h4{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #4c4c4c
+}
+
+.research-page .main-content p{
+    margin-top: 10px;
+
+}
+
+.publications-page .main-content h2{
+    font-size: 2rem;
+    color: #1b1919;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.publications-page .scholar{
+    margin-top: 10px;
+    text-decoration: none;
+    font-style: italic;
+}
+.publications-page .scholar a{
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+}
+
+.publications-page .main-content{
+    height: auto;   
+}
+
+.publications-page .main-content article{
+    margin-top: 20px;
+}
+
+.publications-page .main-content {
+    padding: 30px;
+    font-size: 1.3rem;
+}
