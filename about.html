@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asif Ahmed | About</title>
-  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="about-page">
 
   <!-- HEADER -->
   <header class="head">
@@ -16,9 +16,10 @@
     <div class="headlinks">
       <nav>
         <a href="index.html" class="headlink">Home</a>
-        <a href="about.html" class="headlink">About Me</a>
+        <a href="about.html" class="headlink active">About Me</a>
         <a href="research.html" class="headlink">Research</a>
         <a href="publications.html" class="headlink">Publications</a>
+        <a href="gallery.html" class="headlink">Gallery</a>
       </nav>
     </div>
   </header>
@@ -34,115 +35,140 @@
         <h2>Assistant Professor</h2>
       </div>
 
-      <div class="contact">
-        <div class="phone">
-          <h3 class="label">Phone:</h3>
-          <a href="tel:315-792-7423" class="value">(315) 792-7423</a>
-        </div>
 
-        <div class="email">
-          <h3 class="label">Email:</h3>
-          <p><a href="mailto:asif.ahmed@sunypoly.edu" class="value">asif.ahmed@sunypoly.edu</a></p>
-          <a href="mailto:asif.civil.buet.12@gmail.com" class="value">asif.civil.buet.12@gmail.com</a>
-        </div>
-
-        <div class="social">
-            <a href="https://www.linkedin.com/in/asif-ahmed-123456789/"><img src="image/simple-icons--linkedin.svg" alt="LinkedIn"></a>
-            <a href="https://www.facebook.com/"><img src="image/facebook.svg" alt="Facebook"></a>
-            <a href="https://www.google.com/"><img src="image/google.svg" alt="Google"></a>
-        </div>
-      </div>
-
+  <!-- CONTACT SECTION -->
+  <div class="contact">
+    <div class="location">  
+      <a href="https://maps.google.com/?q=SUNY+Polytechnic+Institute" target="_blank" class="value"><img src="image/googlemaps.svg" alt="Location Icon" class="icons  "> Utica, NY</a>
+    </div>
+    <div class="phone">
+      <a href="tel:315-792-7423" class="value"><img src="image/phone.jpg" alt="Phone Icon" class="icon_phone"> (315) 792-7423</a>
     </div>
 
+    <div class="email">
+    <p><a href="mailto:asif.ahmed@sunypoly.edu" class="value"><img src="image/minutemailer.svg" alt="Email Icon" class="icons"> asif.ahmed@sunypoly.edu</a></p>
+    <a href="mailto:asif.civil.buet.12@gmail.com" class="value"><img src="image/minutemailer.svg" alt="Email Icon" class="icons"> asif.civil.buet.12@gmail.com</a>
+    </div>
+
+    <div class="google_scholar">
+      <a href="https://scholar.google.com/citations?user=Yu-JJB4AAAAJ&hl=en&oi=sra" target="_blank" class="value"><img src="image/googlescholar.svg" alt="Google Scholar Icon" class="icons"> Google Scholar</a>
+    </div>
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/asif-ahmed-phd-pe-8116a834/"> <img src="image/simple-icons--linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://github.com/civilrulz"><img src="image/github.svg" alt="GitHub"></a>
+    </div>
+  </div>
+</div>
+
     <!-- MAIN CONTENT -->
-   <main class="main-content">
+    <main class="main-content">
 
-  <h2>About Me</h2>
+      <h2>About Me</h2>
 
-  <div>
-    <h3>Professional Experience</h3>
-    <pre>
-<div class="exphead">Assistant Professor</div>SUNY Polytechnic Institute
-September 2018–Present
+      <!-- Education -->
+      <div class="education">
+        <section>
+        <h3>Education</h3>
+        <div class="exphead">Ph.D. Civil Engineering</div>
+        <p>University of Texas at Arlington</p>
 
-<div class="exphead">Research Assistant Professor</div>University of Texas at Arlington
-January 2018 – August 2018
+        <div class="exphead">B.Sc. Civil Engineering</div>
+        <p>Bangladesh University of Engineering and Technology</p>
+      </section>
+      </div>
 
-<div class="exphead">Graduate Research/Teaching Assistant</div>University of Texas at Arlington
-January 2014 – December 2017
+      <!-- Professional Experience -->
+      <section>
+        <h3>Professional Experience</h3>
 
-<div class="exphead">Lecturer</div>Presidency University, Dhaka, Bangladesh
-February 2013 – December 2013
+        <div class="experience-item">
+          <div class="exphead">Associate Professor</div>
+          <p>SUNY Polytechnic Institute</p>
+          <p>2025 – Present</p>
+        </div>
 
-<div class="exphead">Lecturer (Part-Time)</div>BRAC University, Dhaka, Bangladesh
-September 2013 – December 2013
-    </pre>
-  </div>
+        <div class="experience-item">
+          <div class="exphead">Assistant Professor</div>
+          <p>SUNY Polytechnic Institute</p>
+          <p>September 2018 – Present</p>
+        </div>
 
-  <div>
-    <h3>Professional Services</h3>
-    <pre>
-Member, American Society of Civil Engineers (ASCE)
+        <div class="experience-item">
+          <div class="exphead">Research Assistant Professor</div>
+          <p>University of Texas at Arlington</p>
+          <p>January 2018 – August 2018</p>
+        </div>
 
-Member, International Society for Soil Mechanics and Geotechnical 
-Engineering (ISSMGE) Technical Committee, TC 302 on Geo-Education
+        <div class="experience-item">
+          <div class="exphead">Graduate Research/Teaching Assistant</div>
+          <p>University of Texas at Arlington</p>
+          <p>January 2014 – December 2017</p>
+        </div>
 
-ASCE Geo-Institute Unsaturated Soils Committee 
-ASCE Cold Region Committee on Frozen Ground 
+        <div class="experience-item">
+          <div class="exphead">Lecturer</div>
+          <p>Presidency University, Dhaka, Bangladesh</p>
+          <p>February 2013 – December 2013</p>
+        </div>
 
-Transportation Research Board (TRB) Standing Committees
-    </pre>
+        <div class="experience-item">
+          <div class="exphead">Lecturer (Part-Time)</div>
+          <p>BRAC University, Dhaka, Bangladesh</p>
+          <p>September 2013 – December 2013</p>
+        </div>
 
-    <ul class="list">
-      <li>Geosynthetics (AKG 80)</li>
-      <li>Geo-Environmental & Climatic Impacts (AKG 30)</li>
-      <li>Mechanics of Unsaturated Geomaterials (AKG 40)</li>
-    </ul>
+      </section>
 
-    <pre>
+      <!-- Professional Services -->
+      <section>
+        <h3>Professional Services</h3>
 
-Reviewer of Geotechnical Journals and Conferences
-    </pre>
-  </div>
+        <ul>
+          <li>Member, American Society of Civil Engineers (ASCE)</li>
+          <li>Member, ISSMGE Technical Committee TC 302 on Geo-Education</li>
+          <li>ASCE Geo-Institute Unsaturated Soils Committee</li>
+          <li>ASCE Cold Region Committee on Frozen Ground</li>
+          <li>Transportation Research Board (TRB) Standing Committees</li>
+        </ul>
 
-  <div>
-    <h3>Area of Teaching</h3>
-    <ul class="list">
-      <li>Materials in Civil Engineering</li>
-      <li>Soil Mechanics and Geotechnical Engineering</li>
-      <li>Foundation Engineering and Design</li>
-      <li>Slope Stability and Earth Structures Design</li>
-    </ul>
-  </div>
+        <ul>
+          <li>Geosynthetics (AKG 80)</li>
+          <li>Geo-Environmental & Climatic Impacts (AKG 30)</li>
+          <li>Mechanics of Unsaturated Geomaterials (AKG 40)</li>
+        </ul>
 
-  <div>
-    <h3>Awards and Honors</h3>
-    <ul class="list">
-      <li>ISSMGE Young Geotechnical Engineering Educator Award (2020)</li>
-      <li>ASCE ExCEEd Fellowship (2020)</li>
-      <li>NSF Travel Grant Geotechnical Engineering Teaching Workshop (2020)</li>
-      <li>NSF Travel Grant CBBG Mid Year Meeting (2019)</li>
-      <li>Solid Waste Institute of Sustainability (SWIS) Leadership Award (2018)</li>
-      <li>ASCE–GI National Competition, Category: Geo-Poster (2017)</li>
-      <li>ASCE–GI National Competition, Category: Geo-Video (2017)</li>
-      <li>Outstanding Graduate Student, CE Dept., UT Arlington (2015–16, 2016–17)</li>
-    </ul>
-  </div>
+        <p>Reviewer of Geotechnical Journals and Conferences</p>
+      </section>
 
-  <div>
-    <h3>Education</h3>
-    <pre>
-Ph.D. Civil Engineering
-University of Texas at Arlington
+      <!-- Area of Teaching -->
+      <section>
+        <h3>Area of Teaching</h3>
+        <ul>
+          <li>Materials in Civil Engineering</li>
+          <li>Soil Mechanics and Geotechnical Engineering</li>
+          <li>Foundation Engineering and Design</li>
+          <li>Slope Stability and Earth Structures Design</li>
+          <li>Capstone projects</li>
+        </ul>
+      </section>
 
-B.Sc. Civil Engineering
-Bangladesh University of Engineering and Technology
-    </pre>
-  </div>
+      <!-- Awards -->
+      <section>
+        <h3>Awards and Honors</h3>
+        <ul>
+          <li>ISSMGE Young Geotechnical Engineering Educator Award (2020)</li>
+          <li>ASCE ExCEEd Fellowship (2020)</li>
+          <li>NSF Travel Grant Geotechnical Engineering Teaching Workshop (2020)</li>
+          <li>Outstanding Graduate Student, UT Arlington</li>
+        </ul>
+      </section>
+          
+        <p class="about-last-text">
+          During my Geotechnical research, I had the opportunity to work on several projects focused on highway slope stability, pavement distress development, real-time data analysis, and finite element numerical modeling. In recent years, my work has expanded toward climate-informed hazard assessment and the use of advanced data analytics in geotechnical applications. I have led projects that integrate remote sensing data, mobile applications, and AI-driven platforms to develop scalable tools for hazard monitoring and prediction.
+        </p>
 
-</main>
-
+    </main>
 
   </div>
 

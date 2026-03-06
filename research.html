@@ -17,8 +17,10 @@
       <nav>
         <a href="index.html" class="headlink">Home</a>
         <a href="about.html" class="headlink">About Me</a>
-        <a href="research.html" class="headlink">Research</a>
+        <a href="research.html" class="headlink active">Research</a>
         <a href="publications.html" class="headlink">Publications</a>
+        <a href="gallery.html" class="headlink">Gallery</a>
+
       </nav>
     </div>
   </header>
@@ -26,7 +28,7 @@
   <!-- CONTAINER -->
   <div class="container">
 
-    <!-- SIDEBAR -->
+<!-- SIDEBAR -->
     <div class="sidebar">
 
       <div class="profile">
@@ -34,26 +36,32 @@
         <h2>Assistant Professor</h2>
       </div>
 
-      <div class="contact">
-        <div class="phone">
-          <h3 class="label">Phone:</h3>
-          <a href="tel:315-792-7423" class="value">(315) 792-7423</a>
-        </div>
 
-        <div class="email">
-          <h3 class="label">Email:</h3>
-          <p><a href="mailto:asif.ahmed@sunypoly.edu" class="value">asif.ahmed@sunypoly.edu</a></p>
-          <a href="mailto:asif.civil.buet.12@gmail.com" class="value">asif.civil.buet.12@gmail.com</a>
-        </div>
-
-        <div class="social">
-          <a href="https://www.linkedin.com/in/asif-ahmed-123456789/"><img src="image/simple-icons--linkedin.svg" alt="LinkedIn"></a>
-          <a href="https://www.facebook.com/"><img src="image/facebook.svg" alt="Facebook"></a>
-          <a href="https://www.google.com/"><img src="image/google.svg" alt="Google"></a>
-        </div>
-      </div>
-
+  <!-- CONTACT SECTION -->
+  <div class="contact">
+    <div class="location">  
+      <a href="https://maps.google.com/?q=SUNY+Polytechnic+Institute" target="_blank" class="value"><img src="image/googlemaps.svg" alt="Location Icon" class="icons  "> Utica, NY</a>
     </div>
+    <div class="phone">
+      <a href="tel:315-792-7423" class="value"><img src="image/phone.jpg" alt="Phone Icon" class="icon_phone"> (315) 792-7423</a>
+    </div>
+
+    <div class="email">
+    <p><a href="mailto:asif.ahmed@sunypoly.edu" class="value"><img src="image/minutemailer.svg" alt="Email Icon" class="icons"> asif.ahmed@sunypoly.edu</a></p>
+    <a href="mailto:asif.civil.buet.12@gmail.com" class="value"><img src="image/minutemailer.svg" alt="Email Icon" class="icons"> asif.civil.buet.12@gmail.com</a>
+    </div>
+
+    <div class="google_scholar">
+      <a href="https://scholar.google.com/citations?user=Yu-JJB4AAAAJ&hl=en&oi=sra" target="_blank" class="value"><img src="image/googlescholar.svg" alt="Google Scholar Icon" class="icons"> Google Scholar</a>
+    </div>
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/asif-ahmed-phd-pe-8116a834/"> <img src="image/simple-icons--linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://github.com/civilrulz"><img src="image/github.svg" alt="GitHub"></a>
+    </div>
+  </div>
+</div>  
+
 
     <!-- MAIN CONTENT -->
     <main class="main-content">
@@ -61,6 +69,14 @@
       <h2>Research</h2>
 
       <!-- AREAS OF RESEARCH -->
+
+      <div>
+        <h3> Research Overview</h3>
+        <p>
+          My research focuses on geotechnical engineering, infrastructure resilience, and the integration of emerging technologies such as remote sensing, artificial intelligence, and data analytics into civil engineering applications. My work aims to improve the monitoring, prediction, and management of infrastructure systems affected by environmental and climatic hazards.
+        </p>
+        </div>  
+
       <div>
         <h3>Areas of Research</h3>
         <ul class="list">
@@ -105,56 +121,95 @@
       <div>
         <h3>Research Highlights</h3>
 
-        <h4>Determining the Freeze-Thaw Cycle of Pavement Subgrade</h4>
-        <img src="image/image1.avif" class="im" alt="Freeze thaw research image">
-        <p>
-          In northern parts of the US, freezing of subgrade soils and subsequent thawing action causes damage
-          to transportation infrastructure. This research aims to identify the actual timing of freezing and
-          thawing based on real-time data.
-        </p>
+        <p class="research-intro">
+        My research focuses on geotechnical engineering and infrastructure resilience, with strong interest in
+        instrumentation, modeling, geospatial data, and practical solutions that improve transportation systems.
+      </p>
 
-        <h4>Sustainable Highway Slope Stabilization using Recycled Plastic Pins (RPP)</h4>
-        <img src="image/image2.avif" class="im" alt="Recycled plastic pins research">
-        <p>
-          Recycled Plastic Pins (RPPs) have been found to be a very cost-effective solution for improving
-          highway slope stability compared to alternative methods.
-        </p>
+      <!-- ITEM 1 -->
+      <section class="research-item">
+        <img src="image/image1.avif" alt="Pavement Freeze-Thaw" class="research-img" />
+        <div class="research-text">
+          <h4>Pavement Freeze–Thaw Analysis</h4>
+          <p>
+            Freezing and thawing of subgrade soils can significantly damage transportation infrastructure in cold
+            regions. This work identifies the timing of freezing and thawing using real-time monitoring data.
+          </p>
+        </div>
+      </section>
 
-        <h4>Pavement Instrumentation to Study the Behavior of Highway Subgrade</h4>
-        <img src="image/image3.avif" class="im" alt="Pavement instrumentation">
-        <p>
-          Instrumentation provides a continuous dynamic image of the subsurface to observe changes in
-          moisture and temperature on a real-time basis.
-        </p>
+      <!-- ITEM 2 -->
+      <section class="research-item">
+        <img src="image/image2.avif" alt="Recycled Plastic Pins" class="research-img" />
+        <div class="research-text">
+          <h4>Recycled Plastic Slope Stabilization</h4>
+          <p>
+            Recycled Plastic Pins (RPPs) offer a cost-effective solution for improving highway slope stability,
+            providing a sustainable alternative to conventional stabilization methods.
+          </p>
+        </div>
+      </section>
 
-        <h4>Mitigation of Flexible Pavement Crack using Geosynthetic Modified Moisture Barrier</h4>
-        <img src="image/image4.avif" class="im" alt="Geosynthetic pavement research">
-        <p>
-          A combination of geotextile, geomembrane, and geonet has been successfully applied to mitigate
-          pavement edge cracking.
-        </p>
+      <!-- ITEM 3 -->
+      <section class="research-item">
+        <img src="image/image3.avif" alt="Subgrade Instrumentation" class="research-img" />
+        <div class="research-text">
+          <h4>Subgrade Instrumentation</h4>
+          <p>
+            Pavement instrumentation enables continuous observation of subsurface behavior, capturing real-time
+            changes in moisture and temperature for improved performance evaluation.
+          </p>
+        </div>
+      </section>
 
-        <h4>Finite Element Modeling (FEM) of Geo-infrastructures</h4>
-        <img src="image/image5.avif" class="im" alt="FEM modeling">
-        <p>
-          Finite Element Modeling (FEM) is an effective tool to evaluate the performance of highways,
-          pavements, dams, and tunnels under various loading conditions.
-        </p>
+      <!-- ITEM 4 -->
+      <section class="research-item">
+        <img src="image/image4.avif" alt="Geosynthetic Moisture Barrier" class="research-img" />
+        <div class="research-text">
+          <h4>Geosynthetic Crack Mitigation</h4>
+          <p>
+            A combined geotextile–geomembrane–geonet moisture barrier system has been used to reduce flexible
+            pavement edge cracking and improve long-term durability.
+          </p>
+        </div>
+      </section>
 
-        <h4>Geophysical Testing for Forensic Investigation</h4>
-        <img src="image/image6.avif" class="im" alt="Geophysical testing">
-        <p>
-          Resistivity imaging provides a continuous portrayal of the subsurface and is an efficient tool
-          for failure investigation of highway slopes and seepage through dams.
-        </p>
+      <!-- ITEM 5 -->
+      <section class="research-item">
+        <img src="image/image5.avif" alt="Finite Element Modeling" class="research-img" />
+        <div class="research-text">
+          <h4>Geo-Infrastructure FEM Modeling</h4>
+          <p>
+            Finite Element Modeling (FEM) is used to evaluate highways, pavements, dams, and tunnels under varying
+            loading and environmental conditions to better predict performance.
+          </p>
+        </div>
+      </section>
 
-        <h4>Use of Recycled Materials in Pavement Base</h4>
-        <img src="image/image7.avif" class="im" alt="Recycled materials pavement">
-        <p>
-          Rapid depletion of virgin aggregates has increased the use of recycled materials such as
-          Recycled Asphalt Pavement (RAP) and Recycled Crushed Concrete Aggregate (RCCA) in pavement applications.
-        </p>
-      </div>
+      <!-- ITEM 6 -->
+      <section class="research-item">
+        <img src="image/image6.avif" alt="Geophysical Testing" class="research-img" />
+        <div class="research-text">
+          <h4>Geophysical Failure Investigation</h4>
+          <p>
+            Resistivity imaging provides continuous subsurface profiles and is an efficient tool for forensic
+            investigation of slope failures and seepage issues in earth structures.
+          </p>
+        </div>
+      </section>
+
+      <!-- ITEM 7 -->
+      <section class="research-item">
+        <img src="image/image7.avif" alt="Recycled Materials in Pavements" class="research-img" />
+        <div class="research-text">
+          <h4>Recycled Pavement Materials</h4>
+          <p>
+            Due to the depletion of virgin aggregates, recycled materials such as RAP and RCCA are increasingly
+            used in pavement base layers to support sustainable transportation infrastructure.
+          </p>
+        </div>
+      </section>
+
 
     </main>
 
