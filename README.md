@@ -47,21 +47,6 @@ No external frameworks or libraries were used.
 
 ---
 
-## Deployment
-
-This website is deployed using **GitHub Pages**.
-
-To update the website:
-
-1. Push all changes to the `main` branch  
-2. Open the repository **Settings**  
-3. Go to the **Pages** section  
-4. Ensure the source is set to the `main` branch  
-
-GitHub Pages will automatically rebuild and publish the updated site.
-
----
-
 ## Contact Information
 
 **Email:** asif.ahmed@sunypoly.edu  
